@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var zmienna string
+	fmt.Println("Podaj swoje imię: ")
+	_, _ = fmt.Scanf("%s", &zmienna)
+	fmt.Println("Twoje imię to: %s", zmienna)
+}
